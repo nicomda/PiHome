@@ -17,4 +17,4 @@ Daemon for server.
 Java Server.
 
 Server usage:
-#sudo java -jar PiHome_Server.jar "PORT_NUMBER" "SERVER_PASSWORD"
+   #sudo java -jar PiHome_Server.jar "PORT_NUMBER" "SERVER_PASSWORD"

@@ -5,9 +5,9 @@ process.env.TZ= 'Europe/Madrid';
 
 //CONFIG
 var host='127.0.0.1';
-var port=1993;
-var password='3fdf75de';
-
+var port=YOUR_PORT;
+var password='YOUR_PASSWORD';
+//END CONFIG
 var server=net.createServer();
 server.on('connection',handleConnection);
 

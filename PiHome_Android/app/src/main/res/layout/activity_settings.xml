@@ -1,0 +1,176 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button_nfc"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0"
+        android:background="@drawable/nfc_logo" />
+
+    <TextView
+        android:id="@+id/textView_serverconfig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/server_config"
+        android:textColor="@android:color/background_light" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView_serveripwifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/server_ip_wifi"
+            android:textColor="@android:color/background_light" />
+
+        <EditText
+            android:id="@+id/editText_ipwifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="bottom"
+            android:hint="Introduce IP WiFi"
+            android:textColor="@android:color/background_light" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView_serverip3g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/server_ip_3g"
+            android:textColor="@android:color/background_light" />
+
+        <EditText
+            android:id="@+id/editText_ip3g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="bottom"
+            android:hint="Introduce IP 3G"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView_serverport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/server_port"
+            android:textColor="@android:color/background_light" />
+
+        <EditText
+            android:id="@+id/editText_port"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="bottom"
+            android:hint="Introduce Puerto"
+            android:inputType="numberSigned"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView_serverpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/server_pass"
+            android:textColor="@android:color/background_light" />
+
+        <EditText
+            android:id="@+id/editText_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="bottom"
+            android:hint="Introduce Password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+         <TextView
+             android:id="@+id/textlight_switch"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_marginTop="10dp"
+             android:text="@string/light_switch"
+             android:textColor="@android:color/background_light" />
+
+         <Switch
+             android:id="@+id/switch_light"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+             android:layout_marginRight="10dp"
+             android:layout_weight="0.62"
+             android:text="Switch" />
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="0" >
+
+         <Button
+             android:id="@+id/button_save"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:gravity="center_vertical|end"
+             android:text="Guardar Configuración"
+             android:textColor="@android:color/background_light" />
+
+     </LinearLayout>
+    
+</LinearLayout>

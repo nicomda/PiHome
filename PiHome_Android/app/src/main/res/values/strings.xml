@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PiHome</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Configuración</string>
+    <string name="exit_app">Salir</string>
+    <string name="server_config">Servidor</string>
+    <string name="server_ip_wifi">IP WiFi: </string>
+    <string name="server_ip_3g">IP 3G: </string>
+    <string name="title_activity_nfc">NFC</string>
+    <string name="title_activity_settings">Configuración</string>
+    <string name="server_pass">Password: </string>
+    <string name="server_port">Puerto: </string>
+    <string name="light_switch">Luz Cochera: </string>
+    <string name="instaOpen_switch">instaOpen: </string>
+</resources>

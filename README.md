@@ -17,5 +17,7 @@ Server on Node.js. To run it on boot, just add it to rc.local or make a daemon
 
 ##Server usage:
    $sudo node server.js
+
 Server password and port must be set on server.js file.
+
 (sudo is needed because of the GPIO library) 

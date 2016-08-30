@@ -12,9 +12,10 @@ Settings Activity to configure some parameters like Server IP on Wifi and 3g, po
 Gps Class to handle reverse location on Android, to avoid far away openings.
 NFC Mimetype=text/plain intent handler
 
-Server for RPi:
-Daemon for server.
-Java Server.
+##Server for RPi:
+Server on Node.js. To run it on boot, just add it to rc.local or make a daemon 
 
-Server usage:
-   #sudo java -jar PiHome_Server.jar "PORT_NUMBER" "SERVER_PASSWORD"
+##Server usage:
+   $sudo node server.js
+Server password and port must be set on server.js file.
+(sudo is needed because of the GPIO library) 
